@@ -49,7 +49,7 @@ buildscript {
 > Note: The gradle version **must** match the Android Studio version you use.
 
 ### App
-In the App project there is a CMakeLists.txt file, open that up and add the following 
+In the App project there is a CMakeLists.txt file, open that up and add the line as shown below. 
 
 ```
 ... ysics)
@@ -60,8 +60,10 @@ include_proje...
 ```
 This should be added BEFORE the libwww stuff (but after the includes), this is just so that the compiler won't complain about the C/C++ cross compiling during the build.
 
-## Building the thing
-Before doing anything, you NEED to build the `libroblox.so` object. To do this, go to the `cmake` folder and run the `configure-android.sh` inside. Once that has been ran (successfully), there should be new folders such as `release`, `noopt` and `debug`.
+## Building libroblox.so
+Before doing anything, you NEED to build the `libroblox.so` object. 
+
+To do this, go to the `cmake` folder and run the `configure-android.sh` inside. Once that has been ran (successfully), there should be new folders such as `release`, `noopt` and `debug`.
 
 For this we will select the `release` folder. 
 
