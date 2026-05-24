@@ -7,7 +7,7 @@ This is just stuff I wanted to write down so that other people who have the sour
 **ALSO THIS IS STILL A WORK IN PROGRESS AS I HAVE NOT COMPLETELY COMPLETED MY BUILD YET. (24/05/2026)**
 
 ## What you need:
-- Android Studio 2.2.3 (min. 1.1.0)
+- Android Studio 2.2.3 (min. 1.5.0)
 - The latest version of Java 7 **JDK**
 - android-ndk-r10e (MUST BE THIS VERSION)
 - cmake 2.8.12.2 + ninja (MUST BE THIS VERSION)
