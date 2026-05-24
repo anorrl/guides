@@ -72,3 +72,12 @@ Run `make` inside the folder.
 It should now begin building. Good luck.
 
 # This guide is most likely not complete.
+
+## Some notes
+
+I find that some cmake files do need to be updated in terms of their contrib paths such as breakpad as it had a inconsistent path.
+
+Mostly because of where I sourced my contribs (I should reorganise it to be honest.), I had to update the paths to be what I named them.
+
+I think that this process entirely, was meant to be done on MacOS. The CMake files generate the CoreScriptConverter using the osx paths.
+
