@@ -81,3 +81,10 @@ Mostly because of where I sourced my contribs (I should reorganise it to be hone
 
 I think that this process entirely, was meant to be done on MacOS. The CMake files generate the CoreScriptConverter using the osx paths.
 
+
+### Contributors
+
+- meditext - Made the original "guide" that made me want to make this lol
+- GlitchySavvy - set up a windows vm for me to remote access into (has a much better pc than me ;-;)
+
+Cannot thank these people ENOUGH!
