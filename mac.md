@@ -17,7 +17,11 @@ OpenSSL 1.0.2c needs some stupid patch to get `ROTATE` to properly build. No big
 
 If you are keeping Qt4 then you need to grab precompiled builds from a package manager like MacPorts or something like that since it WILL NOT build AND install (via the mpkg)
 
-### Contributors
+### What you will need
+- XCode 9
+- Patience
+
+# Contributors
 
 - meditext - He knows the most about mac stuff, I'm just writing this down here for easier setup later on
 - GlitchySavvy - this GOAT set up a Mojave VM on his ***AMD*** machine and let me remote access it to do all this
