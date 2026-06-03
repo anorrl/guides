@@ -29,6 +29,8 @@ You need to set everything to be 64 bit in ALL projects (and targets), along wit
 
 they ALL have to be the same because they won't be linked and the build fails.
 
+Also forget about CONTRIB_PATH here because i can't seem to get it to work functionally, so if you figure it out good on your but otherwise you need to update the includes/libraries/references to be absolute paths.
+
 # Contributors
 
 - meditext - He knows the most about mac stuff, I'm just writing this down here for easier setup later on
