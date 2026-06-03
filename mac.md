@@ -23,6 +23,12 @@ You WILL need to rebuild the CoreScriptConverter app.
 - XCode 9
 - Patience
 
+If you're having issues with reflection.h use the patched up one here in this repo! (by meditext)
+
+You need to set everything to be 64 bit in ALL projects (and targets), along with the compiler set to libstdc++ with GNU99
+
+they ALL have to be the same because they won't be linked and the build fails.
+
 # Contributors
 
 - meditext - He knows the most about mac stuff, I'm just writing this down here for easier setup later on
