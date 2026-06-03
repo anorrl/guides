@@ -4,7 +4,7 @@
 
 This is just stuff I wanted to write down so that other people who have the source code can build their own mac clients.
 
-**ALSO THIS IS STILL A WORK IN PROGRESS AS I HAVE NOT COMPLETELY COMPLETED MY BUILD YET. (30/05/2026)**
+**ALSO THIS IS STILL A WORK IN PROGRESS, I HAVE IT BUILT THO!**
 
 ## IMPORTANT THINGS TO KNOW.
 
