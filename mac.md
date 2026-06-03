@@ -17,11 +17,13 @@ OpenSSL 1.0.2c needs some stupid patch to get `ROTATE` to properly build. No big
 
 If you are keeping Qt4 then you need to grab precompiled builds from a package manager like MacPorts or something like that since it WILL NOT build AND install (via the mpkg)
 
-You WILL need to rebuild the CoreScriptConverter app.
+You WILL need to rebuild the CoreScriptConverter (CSC) app.
 
 ### What you will need
 - XCode 9
 - Patience
+
+Before building the MacClient, you NEED to build the CSC **FIRST**
 
 If you're having issues with reflection.h use the patched up one here in this repo! (by meditext)
 
