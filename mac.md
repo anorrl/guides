@@ -20,8 +20,9 @@ If you are keeping Qt4 then you need to grab precompiled builds from a package m
 You WILL need to rebuild the CoreScriptConverter (CSC) app.
 
 ### What you will need
-- XCode 9
+- XCode 9 (latest)
 - Patience
+- most of the common Contribs like boost 1.56.0, SDL2.0.4 etc
 
 Before building the MacClient, you NEED to build the CSC **FIRST**
 
