@@ -9,7 +9,7 @@
 Ok so first off, you need to set a new **SYSTEM** environment variable named **CONTRIB_PATH** that points to the directory you have EXTRACTED the Contribs.7z at.
 This is CRUCIAL as it is needed for the uhm project to even build.
 
-You also need to change instances of ROBLOX_BOOST_CONFIGS to ANORRL_BOOST_CONFIGS in the boost library.
+You also need to change instances of ROBLOX_BOOST_CONFIGS to ANORRL_BOOST_CONFIGS in the boost library if you're compiling the ANORRL client.
 
 ## IMPORTANT THINGS!
 - use `Release` to build `WindowsClient`
