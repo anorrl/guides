@@ -18,4 +18,6 @@ You also need to change instances of ROBLOX_BOOST_CONFIGS to ANORRL_BOOST_CONFIG
 
 DO NOT BUILD IN THE WRONG CONFIGURATION IT WILL PRODUCE IN A MESSED UP BINARY!
 
-If the build configuration of the projects in the solution are NOT Visual Studio 2012 then change them to be configured as such.
+If the build configuration of the projects in the solution are NOT Visual Studio 2012 then change them to be configured as such, unless it compiles fine...
+
+DO NOT USE VS2013. the compiler bugs out a fuck ton and fails to compile.
