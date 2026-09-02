@@ -6,6 +6,9 @@ This is just stuff I wanted to write down so that other people who have the sour
 
 **ALSO THIS IS STILL A WORK IN PROGRESS, I HAVE IT BUILT THO!**
 
+> While it has been built, I had issues with running it. I forgot now but it kept crashing on boot.
+> I was using the latest XCode 9 along with MacOS Mojave.
+
 ## IMPORTANT THINGS TO KNOW.
 
 Scrap all ideas of 32 bit (unless you want to go THAT far), if you want to support (mostly) all machines even to the newest you will need to scrap any ideas of building in 32 bit.
@@ -17,7 +20,7 @@ OpenSSL 1.0.2c needs some stupid patch to get `ROTATE` to properly build. No big
 
 If you are keeping Qt4 then you need to grab precompiled builds from a package manager like MacPorts or something like that since it WILL NOT build AND install (via the mpkg)
 
-You WILL need to rebuild the CoreScriptConverter (CSC) app.
+You WILL need to rebuild the CoreScriptConverter (CSC) app, **do this BEFORE building the client. The build process requires it.**
 
 ### What you will need
 - XCode 9 (latest)
@@ -33,6 +36,8 @@ You need to set everything to be 64 bit in ALL projects (and targets), along wit
 they ALL have to be the same because they won't be linked and the build fails.
 
 Also forget about CONTRIB_PATH here because i can't seem to get it to work functionally, so if you figure it out good on you but otherwise you need to update the includes/libraries/references to be absolute paths.
+
+### Patches
 
 # Contributors
 
